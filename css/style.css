@@ -1,12 +1,18 @@
 /********** Template CSS **********/
 :root {
-  --primary: #fea116;
+  --primary: #fbecb4;
   --light: #f1f8ff;
   --dark: #0f172b;
 }
 
 .ff-secondary {
   font-family: "Pacifico", cursive;
+}
+.head-image img {
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .fw-medium {
@@ -148,8 +154,8 @@
 
 /*** Hero Header ***/
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(../img/bg-hero.jpg);
+  background: linear-gradient(rgba(15, 23, 43, 0.851), rgba(15, 23, 43, 0.768)),
+    url(../img/Head4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
