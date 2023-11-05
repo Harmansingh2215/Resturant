@@ -543,6 +543,7 @@ h2 {
   .first-letter-mission {
     line-height: 166px;
     width: 100%;
+    margin-left: -15px;
   }
 }
 
