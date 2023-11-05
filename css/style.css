@@ -518,7 +518,17 @@ h2 {
   float: left;
   font-weight: 400;
   font-size: 84px;
-  line-height: 64px;
+  line-height: 23px;
+  padding-top: 2px;
+  padding-right: 8px;
+  padding-left: 4px;
+  color: #cda45e;
+}
+.first-letter-mission {
+  float: left;
+  font-weight: 400;
+  font-size: 84px;
+  line-height: 63px;
   padding-top: 2px;
   padding-right: 8px;
   padding-left: 4px;
