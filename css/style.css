@@ -524,6 +524,11 @@ h2 {
   padding-left: 4px;
   color: #cda45e;
 }
+@media only screen and (max-width: 639px) {
+  .first-letter {
+    line-height: 166px;
+  }
+}
 .first-letter-mission {
   float: left;
   font-weight: 400;
@@ -534,6 +539,13 @@ h2 {
   padding-left: 4px;
   color: #cda45e;
 }
+@media only screen and (max-width: 639px) {
+  .first-letter-mission {
+    line-height: 166px;
+    width: 100%;
+  }
+}
+
 .first-letter-vision {
   float: left;
   font-weight: 400;
@@ -543,6 +555,12 @@ h2 {
   padding-right: 8px;
   padding-left: 4px;
   color: #cda45e;
+}
+@media only screen and (max-width: 639px) {
+  .first-letter-vision {
+    line-height: 166px;
+    width: 100%;
+  }
 }
 .line-break {
   border-bottom: 1px solid #bf2d33;
